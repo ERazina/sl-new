@@ -1,0 +1,17 @@
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~slick-carousel/slick/slick.css"; 
+
+.item {
+    width:  500px;
+
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
+    justify-content: center;
+}
+
+.root{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

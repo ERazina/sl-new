@@ -1,0 +1,19 @@
+
+@import '../../variables/colors';
+
+.nav{
+    display: flex;
+    flex-direction: row;
+
+    li{
+        list-style-type: none;
+        
+
+    }
+
+    .link{
+        text-decoration: none;
+        color: $black;
+        padding: 0 15px 0 15px;
+    }
+}
