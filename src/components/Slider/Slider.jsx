@@ -6,7 +6,7 @@ import 'react-awesome-slider/dist/styles.css';
 import meditation from './../../images/meditation.png';
 import racoon from './../../images/racoon.png';
 import birds from './../../images/birds.png';
-import './AwesomeSlider.scss';
+import './Slider.scss';
 
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -27,8 +27,6 @@ const Slider = () => {
   </div>
   )
 }
-
-
 
 export default Slider;
 

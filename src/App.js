@@ -8,26 +8,35 @@ import {
   Route
 } from "react-router-dom";
 import Footer from './components/Footer/Footer';
-import Slider from './components/AwesomwSlider/AwesomeSlider';
+import { Home, Art, Photo, Design, Contact, Info } from './pages/index'
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <Slider />
+
         <Switch>
           <Route path='/' exact>
-            {/* //Home */}
+            <Home />
+          </Route>
+          <Route path='/art' exact>
+            {Art}
+          </Route>
+          <Route path='/photo'>
+            {Photo}
+          </Route>
+          <Route path='/design'>
+            {Design}
           </Route>
           <Route path='/myworks'>
             {/* //contacts */}
           </Route>
           <Route path='/contacts'>
-            {/* //contacts */}
+            {Contact}
           </Route>
           <Route path='/info'>
-            {/* //info */}
+            {Info}
           </Route>
         </Switch>
       </div>
